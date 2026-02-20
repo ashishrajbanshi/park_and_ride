@@ -1,0 +1,73 @@
+{
+  "dataset": "census_blocks",
+  "processing_date": "2026-02-20T14:48:59.437787",
+  "duration_seconds": 0.920237,
+  "statistics": {
+    "raw_record_count": 364,
+    "final_record_count": 364,
+    "fields_renamed": [
+      "geoid",
+      "name",
+      "land_area",
+      "total_pop",
+      "transport_mode",
+      "travel_time",
+      "median_hh_income",
+      "per_capita_income",
+      "housing_units",
+      "vehicles_available",
+      "employment",
+      "work_from_home"
+    ],
+    "fields_created": [
+      "area_km2",
+      "pop_density",
+      "employment_density",
+      "centroid_x",
+      "centroid_y"
+    ],
+    "records_removed": 0,
+    "values_imputed": {
+      "total_pop": {
+        "method": "zero",
+        "count": 1
+      },
+      "employment": {
+        "method": "zero",
+        "count": 2
+      }
+    }
+  },
+  "transformations": [
+    {
+      "timestamp": "2026-02-20T14:48:59.025904",
+      "operation": "field_renaming",
+      "details": "Renamed 12 fields to standardized names",
+      "affected_count": 12
+    },
+    {
+      "timestamp": "2026-02-20T14:48:59.046982",
+      "operation": "geometry_fix",
+      "details": "Fixed 1 invalid geometries using buffer(0)",
+      "affected_count": 1
+    },
+    {
+      "timestamp": "2026-02-20T14:48:59.069924",
+      "operation": "reprojection",
+      "details": "Reprojected from EPSG:4326 to EPSG:32616",
+      "affected_count": 0
+    },
+    {
+      "timestamp": "2026-02-20T14:48:59.075095",
+      "operation": "imputation",
+      "details": "total_pop: 1 values imputed using zero",
+      "affected_count": 1
+    },
+    {
+      "timestamp": "2026-02-20T14:48:59.075555",
+      "operation": "imputation",
+      "details": "employment: 2 values imputed using zero",
+      "affected_count": 2
+    }
+  ]
+}

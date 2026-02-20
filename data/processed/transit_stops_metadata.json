@@ -1,0 +1,36 @@
+{
+  "dataset": "gtfs_stops",
+  "processing_date": "2026-02-20T14:48:57.029627",
+  "duration_seconds": 0.318836,
+  "statistics": {
+    "raw_record_count": 1233,
+    "final_record_count": 1233,
+    "fields_renamed": [],
+    "fields_created": [
+      "daily_trips",
+      "num_routes"
+    ],
+    "records_removed": 0,
+    "values_imputed": {}
+  },
+  "transformations": [
+    {
+      "timestamp": "2026-02-20T14:48:56.718890",
+      "operation": "coordinate_filtering",
+      "details": "Removed 0 invalid stops",
+      "affected_count": 0
+    },
+    {
+      "timestamp": "2026-02-20T14:48:56.722528",
+      "operation": "reprojection",
+      "details": "Reprojected from EPSG:4326 to EPSG:32616",
+      "affected_count": 0
+    },
+    {
+      "timestamp": "2026-02-20T14:48:56.836183",
+      "operation": "frequency_calculation",
+      "details": "Calculated daily trips for 1233 stops",
+      "affected_count": 0
+    }
+  ]
+}

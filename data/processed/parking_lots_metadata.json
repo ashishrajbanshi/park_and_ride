@@ -1,0 +1,40 @@
+{
+  "dataset": "parking_lots",
+  "processing_date": "2026-02-20T14:48:56.708221",
+  "duration_seconds": -2.730984,
+  "statistics": {
+    "raw_record_count": 458,
+    "final_record_count": 458,
+    "fields_renamed": [
+      "name",
+      "capacity",
+      "type"
+    ],
+    "fields_created": [
+      "parking_id",
+      "capacity_estimated"
+    ],
+    "records_removed": 0,
+    "values_imputed": {}
+  },
+  "transformations": [
+    {
+      "timestamp": "2026-02-20T14:48:59.455232",
+      "operation": "field_renaming",
+      "details": "Renamed 3 fields",
+      "affected_count": 3
+    },
+    {
+      "timestamp": "2026-02-20T14:48:59.458771",
+      "operation": "reprojection",
+      "details": "Reprojected from EPSG:4326 to EPSG:32616",
+      "affected_count": 0
+    },
+    {
+      "timestamp": "2026-02-20T14:48:59.459115",
+      "operation": "id_creation",
+      "details": "Created parking_id field (1-458)",
+      "affected_count": 458
+    }
+  ]
+}

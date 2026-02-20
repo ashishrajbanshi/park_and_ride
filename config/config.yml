@@ -1,0 +1,286 @@
+# ----------------------------------------------------------------------------
+# PROJECT METADATA
+# ----------------------------------------------------------------------------
+project:
+  name: "Park and Ride Optimization"
+  version: "1.0.0"
+  study_area: "Chattanooga Metropolitan Planning Organization Region"
+
+# ----------------------------------------------------------------------------
+# COORDINATE REFERENCE SYSTEMS
+# ----------------------------------------------------------------------------
+# Justification: UTM Zone 16N (EPSG:32616) appropriate for Chattanooga (85°W)
+# - Preserves distance calculations (critical for buffers)
+# - Standard in regional transportation planning
+# - Reference: Snyder (1987), USGS Professional Paper 1395
+# ----------------------------------------------------------------------------
+crs:
+  input_wgs84: 4326        # WGS84 (GPS, lat/lon) - Input CRS
+  analysis_utm: 32616      # UTM Zone 16N (meters) - All analysis
+  output_web: 4326         # WGS84 for web mapping (ArcGIS Online, etc.)
+
+# ----------------------------------------------------------------------------
+# LOCATION & SPATIAL ZONES
+# ----------------------------------------------------------------------------
+# Source: VW Chattanooga official address
+# Exclusion rationale: P&R requires meaningful modal shift (Parkhurst, 2000)
+# Optimal zone: Empirical P&R adoption peaks at 8-15km (Holguín-Veras, 2012)
+# ----------------------------------------------------------------------------
+vw_plant:
+  name: "Volkswagen Chattanooga Assembly Plant"
+  address: "8001 Volkswagen Drive, Chattanooga, TN 37416"
+  
+  coordinates:
+    latitude: 35.0769491
+    longitude: -85.1305550
+  
+  distance_zones:
+    exclusion_min: 0        # meters
+    exclusion_max: 5000     # meters - Too close; users will drive all the way
+    optimal_min: 8000       # meters - Sweet spot begins
+    optimal_max: 15000      # meters - Sweet spot ends
+    acceptable_max: 25000   # meters - Maximum useful distance
+    
+  distance_scoring:
+    # How distance from VW affects score
+    # score = 100 if in optimal zone
+    # score = (distance/optimal_min)*100 if too close
+    # score = max(0, 100 - penalty) if too far
+    far_penalty_per_km: 10  # Score reduction per km beyond optimal_max
+
+# ----------------------------------------------------------------------------
+# WALKING DISTANCE SCENARIOS
+# ----------------------------------------------------------------------------
+# Based on pedestrian accessibility literature:
+# - 400m: TCRP Report 19, Dill (2003) - 85th percentile of walk distances
+# - 800m: El-Geneidy et al. (2014) - Standard planning assumption
+# - 1200m: Zhao et al. (2003) - Upper bound for motivated users
+# 
+# Rationale for multiple scenarios:
+# - Addresses user heterogeneity (tolerance variability)
+# - Sensitivity analysis (conservative vs. optimistic)
+# - Site-specific optimization (best scenario per lot)
+# ----------------------------------------------------------------------------
+walking_distances:
+  conservative: 400   # meters (~5 min walk @ 5 km/h)
+  moderate: 800       # meters (~10 min walk @ 5 km/h)
+  extended: 1200      # meters (~15 min walk @ 5 km/h)
+
+# ----------------------------------------------------------------------------
+# TRANSIT SERVICE QUALITY THRESHOLDS
+# ----------------------------------------------------------------------------
+# Based on Transit Capacity and Quality of Service Manual (TCQSM, 3rd Ed.)
+# Assumes 16-hour service day (6 AM - 10 PM)
+# 
+# Headway interpretation:
+# - 100 trips/day ≈ 9.6 min headway (show-and-go service)
+# - 50 trips/day ≈ 19.2 min headway (minimal schedule checking)
+# - 30 trips/day ≈ 32 min headway (schedule required)
+# - 10 trips/day ≈ 96 min headway (very limited service)
+# 
+# P&R Implications:
+# - High frequency: Missed bus = tolerable wait
+# - Low frequency: Missed bus = unacceptable delay → mode reversion
+# ----------------------------------------------------------------------------
+service_quality:
+  excellent: 
+    min_trips_per_day: 100
+    headway_minutes: 10
+    description: "Show-and-go service (no schedule needed)"
+    
+  good:
+    min_trips_per_day: 50
+    headway_minutes: 20
+    description: "Convenient service (minimal planning)"
+    
+  fair:
+    min_trips_per_day: 30
+    headway_minutes: 30
+    description: "Acceptable service (schedule awareness required)"
+    
+  limited:
+    min_trips_per_day: 10
+    headway_minutes: 90
+    description: "Minimal service (risky for daily commute)"
+    
+  poor:
+    min_trips_per_day: 0
+    headway_minutes: 999
+    description: "Inadequate for P&R"
+
+# ----------------------------------------------------------------------------
+# ACCESSIBILITY COMPONENT WEIGHTS
+# ----------------------------------------------------------------------------
+# Empirical justification for each weight:
+#
+# 1. Trip Frequency (30%):
+#    - Highest weight due to strongest behavioral impact
+#    - Taylor et al. (2009): Frequency elasticity 2-3× other factors
+#    - P&R context: Schedule flexibility critical for shift workers
+#
+# 2. Number of Stops (25%):
+#    - Redundancy value (backup if primary stop unavailable)
+#    - Gutiérrez et al. (2011): Stop density correlates with P&R usage
+#
+# 3. Service Reliability (20%):
+#    - Bates et al. (2001): Users value reliability at 0.8-1.2× travel time
+#    - Operationalized as headway-based score (short headway = reliable)
+#
+# 4. Walking Distance (15%):
+#    - Lower weight for P&R (users already drove, minor walk is tolerable)
+#    - O'Sullivan & Morrall (1996): P&R users walk 30% further than walk-up
+#
+# 5. Route Diversity (10%):
+#    - Lowest weight (most commuters need only 1 route to VW)
+#    - Murray & Wu (2003): Marginal impact for work trips
+#
+# SENSITIVITY: Will be tested at ±20% in validation phase
+# ----------------------------------------------------------------------------
+accessibility_weights:
+  num_stops: 0.25           # Transit stop count (redundancy)
+  trip_frequency: 0.30      # Daily trips (service frequency)
+  service_reliability: 0.20 # Headway-based reliability
+  walking_distance: 0.15    # Proximity to nearest stop
+  route_diversity: 0.10     # Number of unique routes
+  
+  # Validation check (must sum to 1.0)
+  _sum_check: 1.00
+
+# ----------------------------------------------------------------------------
+# FINAL RANKING WEIGHTS
+# ----------------------------------------------------------------------------
+# Combines multiple criteria for final site selection:
+#
+# 1. Transit Accessibility (40%):
+#    - Composite of above 5 accessibility components
+#    - Highest weight: P&R is fundamentally a transit-dependent system
+#
+# 2. Service Frequency (25%):
+#    - Separate emphasis beyond accessibility composite
+#    - Reflects critical importance for daily commute reliability
+#
+# 3. Distance from VW (20%):
+#    - Spatial optimization (sweet spot: 8-15km)
+#    - Too close = no modal shift; too far = low adoption
+#
+# 4. Parking Capacity (10%):
+#    - Secondary factor (supply must match potential demand)
+#    - Lower weight: capacity can be expanded if needed
+#
+# 5. Optimal Location Bonus (5%):
+#    - Tie-breaker for sites in 8-15km sweet spot
+#    - Marginal adjustment, not primary driver
+# ----------------------------------------------------------------------------
+ranking_weights:
+  transit_accessibility: 0.40   # Composite accessibility score
+  service_frequency: 0.25       # Daily transit trips
+  distance_from_vw: 0.20        # Spatial optimality
+  parking_capacity: 0.10        # Supply adequacy
+  optimal_distance: 0.05        # Location bonus
+  
+  _sum_check: 1.00
+
+# ----------------------------------------------------------------------------
+# MINIMUM VIABILITY THRESHOLDS
+# ----------------------------------------------------------------------------
+# Sites must meet these criteria to be considered for ranking:
+#
+# min_transit_stops: At least 1 stop within moderate walking distance (800m)
+#   - Rationale: P&R without transit access is just parking
+#   
+# min_daily_trips: At least 5 trips/day to enable some schedule flexibility
+#   - Rationale: <5 trips = essentially unusable for daily commute
+#   
+# min_capacity: At least 20 spaces to justify infrastructure investment
+#   - Rationale: Small lots (<20) unlikely to meaningfully impact mode share
+# ----------------------------------------------------------------------------
+minimum_thresholds:
+  min_transit_stops: 1      # Minimum stops within 800m
+  min_daily_trips: 5        # Minimum trips/day for viability
+  min_capacity: 20          # Minimum parking spaces
+
+# ----------------------------------------------------------------------------
+# DATA QUALITY PARAMETERS
+# ----------------------------------------------------------------------------
+# Missing data imputation strategies:
+#
+# capacity_imputation:
+#   - Method: Estimate from lot area (if available)
+#   - Rule: 1 space ≈ 25 m² (includes circulation)
+#   - Fallback: Use median capacity of similar lot type
+#
+# gtfs_validity:
+#   - Data vintage: Q4 2024
+#   - Note: Service may have changed since data collection
+#   - Limitation: Document in methodology
+# ----------------------------------------------------------------------------
+data_quality:
+  capacity_imputation:
+    method: "area_based"  # or "type_median"
+    area_per_space_m2: 25
+    
+  missing_value_strategy:
+    capacity: "impute"    # vs. "exclude"
+    type: "unknown"       # default value if missing
+    
+  gtfs_validation:
+    check_temporal_validity: true
+    flag_outdated_schedules: true
+    max_age_days: 180
+
+# ----------------------------------------------------------------------------
+# SPATIAL ANALYSIS PARAMETERS
+# ----------------------------------------------------------------------------
+# Clustering:
+#   - Used to identify overlapping/cannibalizing sites (Problem 1)
+#   - Method: DBSCAN (density-based spatial clustering)
+#   - Parameters to be determined in Step 3
+#
+# Equity Zones:
+#   - Geographic units for coverage analysis (Problem 3)
+#   - Options: Census tracts, TAZ, custom grid
+#   - Selection affects equity metric calculation
+# ----------------------------------------------------------------------------
+spatial:
+  clustering:
+    method: "dbscan"          # vs. "hierarchical", "kmeans"
+    max_distance_m: 400       # Sites within 400m may cluster
+    min_cluster_size: 2       # At least 2 sites to form cluster
+    
+  equity_zones:
+    unit: "census_tract"      # vs. "taz", "grid"
+    grid_size_m: 2000         # If using grid method
+
+# ----------------------------------------------------------------------------
+# OUTPUT SETTINGS
+# ----------------------------------------------------------------------------
+outputs:
+  export_formats:
+    - "csv"
+    - "shapefile"
+    - "geojson"
+    - "excel"
+  
+  arcgis:
+    create_views: true
+    create_map_package: true
+    
+  reports:
+    generate_methodology: true
+    include_sensitivity: true
+    academic_format: "markdown"  # vs. "latex", "docx"
+
+# ----------------------------------------------------------------------------
+# PATHS (Relative to project root)
+# ----------------------------------------------------------------------------
+paths:
+  data_raw: "data/raw"
+  data_processed: "data/processed"
+  data_outputs: "data/outputs"
+  results: "results"
+  figures: "figures"
+  reports: "reports"
+
+# ============================================================================
+# END OF CONFIGURATION
+# ============================================================================

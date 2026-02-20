@@ -1,0 +1,459 @@
+parking_id,name,num_stops_800m,total_daily_trips,total_routes,nearest_stop_distance_m,avg_walk_distance_m,scenario,buffer_distance_m,has_adequate_transit,trips_per_stop,stops_score,frequency_score,reliability_score,proximity_score,diversity_score,accessibility_score,service_quality,reliability_class,rank_moderate
+337,"Location (35.0483, -85.3062)",159,24053,475,98,524,moderate,800,True,151.27672955974842,100.0,100.0,100,99.02,99.37,99.79,excellent,High Reliability,1
+417,"Location (35.0476, -85.3068)",156,23964,478,106,498,moderate,800,True,153.6153846153846,98.11,99.63,100,98.94,100.0,99.26,excellent,High Reliability,2
+389,"Location (35.0468, -85.3080)",155,23559,450,130,475,moderate,800,True,151.99354838709678,97.48,97.95,100,98.7,94.14,97.97,excellent,High Reliability,3
+358,"Location (35.0465, -85.3051)",153,22974,455,67,527,moderate,800,True,150.15686274509804,96.23,95.51,100,99.33,95.19,97.13,excellent,High Reliability,4
+305,"Location (35.0463, -85.3099)",141,22404,383,49,448,moderate,800,True,158.89361702127658,88.68,93.14,100,99.51,80.13,93.05,excellent,High Reliability,5
+205,"Location (35.0463, -85.3041)",141,21845,415,58,539,moderate,800,True,154.9290780141844,88.68,90.82,100,99.42,86.82,93.01,excellent,High Reliability,6
+308,"Location (35.0493, -85.3052)",143,21154,439,204,539,moderate,800,True,147.93006993006992,89.94,87.95,100,97.96,91.84,92.75,excellent,High Reliability,7
+435,"Location (35.0490, -85.3042)",144,19876,465,106,568,moderate,800,True,138.02777777777777,90.57,82.63,100,98.94,97.28,92.0,excellent,High Reliability,8
+320,"Location (35.0453, -85.3062)",138,21751,394,70,462,moderate,800,True,157.6159420289855,86.79,90.43,100,99.3,82.43,91.96,excellent,High Reliability,9
+382,"Location (35.0484, -85.3041)",142,20137,456,87,559,moderate,800,True,141.80985915492957,89.31,83.72,100,99.13,95.4,91.85,excellent,High Reliability,10
+456,"Location (35.0488, -85.3039)",142,19419,461,78,573,moderate,800,True,136.75352112676057,89.31,80.73,100,99.22,96.44,91.07,excellent,High Reliability,11
+252,"Location (35.0477, -85.3121)",137,20874,378,134,516,moderate,800,True,152.36496350364965,86.16,86.78,100,98.66,79.08,90.28,excellent,High Reliability,12
+295,"Location (35.0444, -85.3099)",134,21327,353,39,430,moderate,800,True,159.15671641791045,84.28,88.67,100,99.61,73.85,90.0,excellent,High Reliability,13
+364,"Location (35.0457, -85.3027)",135,19850,392,70,576,moderate,800,True,147.03703703703704,84.91,82.53,100,99.3,82.01,89.08,excellent,High Reliability,14
+415,"Location (35.0439, -85.3057)",131,21076,336,52,457,moderate,800,True,160.8854961832061,82.39,87.62,100,99.48,70.29,88.84,excellent,High Reliability,15
+313,"Location (35.0429, -85.3052)",132,20870,338,48,488,moderate,800,True,158.1060606060606,83.02,86.77,100,99.52,70.71,88.78,excellent,High Reliability,16
+328,"Location (35.0452, -85.3124)",134,20477,339,70,519,moderate,800,True,152.8134328358209,84.28,85.13,100,99.3,70.92,88.6,excellent,High Reliability,17
+403,"Location (35.0458, -85.3032)",134,19508,388,80,556,moderate,800,True,145.5820895522388,84.28,81.1,100,99.2,81.17,88.4,excellent,High Reliability,18
+434,"Location (35.0463, -85.3123)",133,20211,350,159,509,moderate,800,True,151.9624060150376,83.65,84.03,100,98.41,73.22,88.2,excellent,High Reliability,19
+61,"Location (35.0417, -85.3073)",138,19872,326,113,475,moderate,800,True,144.0,86.79,82.62,100,98.87,68.2,88.13,excellent,High Reliability,20
+345,"Location (35.0503, -85.3088)",123,20247,402,73,441,moderate,800,True,164.609756097561,77.36,84.18,100,99.27,84.1,87.89,excellent,High Reliability,21
+310,Unum,133,18966,409,207,543,moderate,800,True,142.6015037593985,83.65,78.85,100,97.93,85.56,87.81,excellent,High Reliability,22
+290,"Location (35.0503, -85.3092)",122,20102,401,42,436,moderate,800,True,164.7704918032787,76.73,83.57,100,99.58,83.89,87.58,excellent,High Reliability,23
+292,"Location (35.0443, -85.3118)",130,19804,340,46,484,moderate,800,True,152.33846153846153,81.76,82.33,100,99.54,71.13,87.18,excellent,High Reliability,24
+453,"Location (35.0450, -85.3115)",129,19986,336,37,466,moderate,800,True,154.93023255813952,81.13,83.09,100,99.63,70.29,87.18,excellent,High Reliability,25
+338,"Location (35.0437, -85.3047)",126,20194,327,58,480,moderate,800,True,160.26984126984127,79.25,83.96,100,99.42,68.41,86.75,excellent,High Reliability,26
+363,"Location (35.0497, -85.3039)",134,17126,428,113,574,moderate,800,True,127.80597014925372,84.28,71.2,100,98.87,89.54,86.21,excellent,High Reliability,27
+113,"Location (35.0468, -85.3023)",132,17243,419,58,591,moderate,800,True,130.62878787878788,83.02,71.69,100,99.42,87.66,85.94,excellent,High Reliability,28
+451,"Location (35.0410, -85.3059)",133,18821,307,157,511,moderate,800,True,141.51127819548873,83.65,78.25,100,98.43,64.23,85.57,excellent,High Reliability,29
+383,"Location (35.0446, -85.3130)",126,19118,327,63,522,moderate,800,True,151.73015873015873,79.25,79.48,100,99.37,68.41,85.4,excellent,High Reliability,30
+448,"Location (35.0480, -85.3132)",123,19435,335,230,540,moderate,800,True,158.0081300813008,77.36,80.8,100,97.7,70.08,85.24,excellent,High Reliability,31
+425,"Location (35.0407, -85.3074)",128,18228,297,63,475,moderate,800,True,142.40625,80.5,75.78,100,99.37,62.13,83.98,excellent,High Reliability,32
+381,"Location (35.0495, -85.3031)",123,15921,420,62,581,moderate,800,True,129.4390243902439,77.36,66.19,100,99.38,87.87,82.89,excellent,High Reliability,33
+283,"Location (35.0485, -85.3134)",115,18389,322,252,536,moderate,800,True,159.90434782608696,72.33,76.45,100,97.48,67.36,82.38,excellent,High Reliability,34
+367,"Location (35.0508, -85.3045)",117,16364,386,150,540,moderate,800,True,139.86324786324786,73.58,68.03,100,98.5,80.75,81.66,excellent,High Reliability,35
+298,"Location (35.0400, -85.3066)",125,16933,280,104,502,moderate,800,True,135.464,78.62,70.4,100,98.96,58.58,81.48,excellent,High Reliability,36
+406,"Location (35.0507, -85.3050)",118,16251,375,165,522,moderate,800,True,137.72033898305085,74.21,67.56,100,98.35,78.45,81.42,excellent,High Reliability,37
+449,"Location (35.0507, -85.3113)",104,17793,332,44,432,moderate,800,True,171.08653846153845,65.41,73.97,100,99.56,69.46,80.42,excellent,High Reliability,38
+419,"Location (35.0493, -85.3135)",107,17776,307,252,528,moderate,800,True,166.13084112149534,67.3,73.9,100,97.48,64.23,80.04,excellent,High Reliability,39
+321,"Location (35.0476, -85.3019)",115,13582,392,91,579,moderate,800,True,118.10434782608695,72.33,56.47,100,99.09,82.01,78.09,excellent,High Reliability,40
+125,"Location (35.0516, -85.3070)",105,15014,353,71,449,moderate,800,True,142.9904761904762,66.04,62.42,100,99.29,73.85,77.51,excellent,High Reliability,41
+422,"Location (35.0512, -85.3101)",102,15696,331,29,398,moderate,800,True,153.88235294117646,64.15,65.26,100,99.71,69.25,77.5,excellent,High Reliability,42
+331,"Location (35.0399, -85.3122)",112,15733,254,181,523,moderate,800,True,140.47321428571428,70.44,65.41,100,98.19,53.14,77.28,excellent,High Reliability,43
+242,"Location (35.0389, -85.3084)",114,15231,248,91,483,moderate,800,True,133.60526315789474,71.7,63.32,100,99.09,51.88,76.97,excellent,High Reliability,44
+404,"Location (35.0420, -85.3024)",112,14777,262,38,561,moderate,800,True,131.9375,70.44,61.44,100,99.62,54.81,76.46,excellent,High Reliability,45
+211,"Location (35.0503, -85.3132)",98,15928,278,225,502,moderate,800,True,162.53061224489795,61.64,66.22,100,97.75,58.16,75.75,excellent,High Reliability,46
+249,"Location (35.0405, -85.3140)",104,15602,241,76,568,moderate,800,True,150.01923076923077,65.41,64.87,100,99.24,50.42,75.74,excellent,High Reliability,47
+267,"Location (35.0507, -85.3124)",94,15570,284,144,449,moderate,800,True,165.63829787234042,59.12,64.73,100,98.56,59.41,74.92,excellent,High Reliability,48
+157,"Location (35.0387, -85.3114)",104,14582,225,71,505,moderate,800,True,140.21153846153845,65.41,60.62,100,99.29,47.07,74.14,excellent,High Reliability,49
+106,"Location (35.0463, -85.3161)",85,14658,230,200,602,moderate,800,True,172.4470588235294,53.46,60.94,100,98.0,48.12,71.16,excellent,High Reliability,50
+25,"Location (35.0486, -85.3163)",85,14433,210,299,627,moderate,800,True,169.8,53.46,60.0,100,97.01,43.93,70.31,excellent,High Reliability,51
+137,"Location (35.0505, -85.3152)",86,13831,240,375,588,moderate,800,True,160.82558139534885,54.09,57.5,100,96.25,50.21,70.23,excellent,High Reliability,52
+431,48,95,9931,276,49,556,moderate,800,True,104.53684210526316,59.75,41.29,100,99.51,57.74,68.02,excellent,High Reliability,53
+341,"Location (35.0373, -85.3118)",88,11642,180,55,508,moderate,800,True,132.29545454545453,55.35,48.4,100,99.45,37.66,67.04,excellent,High Reliability,54
+317,"Location (35.0377, -85.3131)",85,11981,173,77,540,moderate,800,True,140.95294117647057,53.46,49.81,100,99.23,36.19,66.81,excellent,High Reliability,55
+322,"Location (35.0542, -85.3069)",79,10979,270,79,490,moderate,800,True,138.9746835443038,49.69,45.65,100,99.21,56.49,66.64,excellent,High Reliability,56
+287,"Location (35.0529, -85.3128)",69,10582,215,111,433,moderate,800,True,153.36231884057972,43.4,43.99,100,98.89,44.98,63.38,excellent,High Reliability,57
+18,"Location (35.0379, -85.3148)",74,10490,142,99,585,moderate,800,True,141.75675675675674,46.54,43.61,100,99.01,29.71,62.54,excellent,High Reliability,58
+385,"Location (35.0453, -85.2959)",75,9223,207,71,557,moderate,800,True,122.97333333333333,47.17,38.34,100,99.29,43.31,62.52,excellent,High Reliability,59
+347,"Location (35.0544, -85.3102)",65,9549,217,43,394,moderate,800,True,146.90769230769232,40.88,39.7,100,99.57,45.4,61.61,excellent,High Reliability,60
+372,"Location (35.0364, -85.3057)",83,8474,149,95,521,moderate,800,True,102.09638554216868,52.2,35.23,100,99.05,31.17,61.59,excellent,High Reliability,61
+373,"Location (35.0540, -85.3125)",65,9814,201,105,453,moderate,800,True,150.98461538461538,40.88,40.8,100,98.95,42.05,61.51,excellent,High Reliability,62
+268,"Location (35.0417, -85.2999)",78,8929,142,73,569,moderate,800,True,114.47435897435898,49.06,37.12,100,99.27,29.71,61.26,excellent,High Reliability,63
+160,"Location (35.0471, -85.3177)",61,10847,151,100,636,moderate,800,True,177.81967213114754,38.36,45.1,100,99.0,31.59,61.13,excellent,High Reliability,64
+405,"Location (35.0361, -85.3092)",79,8500,145,78,462,moderate,800,True,107.59493670886076,49.69,35.34,100,99.22,30.33,60.94,excellent,High Reliability,65
+224,"Location (35.0470, -85.2966)",67,8846,219,137,512,moderate,800,True,132.02985074626866,42.14,36.78,100,98.63,45.82,60.94,excellent,High Reliability,66
+352,"Location (35.0362, -85.3051)",82,7958,141,92,540,moderate,800,True,97.04878048780488,51.57,33.09,100,99.08,29.5,60.63,excellent,High Reliability,67
+191,"Location (35.0469, -85.2948)",63,8779,210,45,514,moderate,800,True,139.34920634920636,39.62,36.5,100,99.55,43.93,60.18,excellent,High Reliability,68
+327,"Location (35.0551, -85.3114)",60,8848,188,86,459,moderate,800,True,147.46666666666667,37.74,36.79,100,99.14,39.33,59.27,excellent,High Reliability,69
+433,"Location (35.0353, -85.3087)",73,7841,127,86,468,moderate,800,True,107.41095890410959,45.91,32.6,100,99.14,26.57,58.79,excellent,High Reliability,70
+371,"Location (35.0433, -85.2963)",66,7652,160,71,542,moderate,800,True,115.93939393939394,41.51,31.81,100,99.29,33.47,58.16,excellent,High Reliability,71
+284,33,57,7510,225,63,492,moderate,800,True,131.75438596491227,35.85,31.22,100,99.37,47.07,57.94,excellent,High Reliability,72
+222,32,58,7160,235,65,503,moderate,800,True,123.44827586206897,36.48,29.77,100,99.35,49.16,57.87,excellent,High Reliability,73
+255,"Location (35.0490, -85.2944)",51,7685,211,60,470,moderate,800,True,150.68627450980392,32.08,31.95,100,99.4,44.14,56.93,excellent,High Reliability,74
+108,"Location (35.0480, -85.2928)",47,7036,199,76,456,moderate,800,True,149.70212765957447,29.56,29.25,100,99.24,41.63,55.21,excellent,High Reliability,75
+395,"Location (35.0428, -85.2917)",52,6787,162,79,546,moderate,800,True,130.51923076923077,32.7,28.22,100,99.21,33.89,54.91,excellent,High Reliability,76
+457,"Location (35.0345, -85.3072)",60,6371,102,87,450,moderate,800,True,106.18333333333334,37.74,26.49,100,99.13,21.34,54.38,excellent,High Reliability,77
+291,"Location (35.0427, -85.2985)",63,6167,88,70,517,moderate,800,True,97.88888888888889,39.62,25.64,100,99.3,18.41,54.33,excellent,High Reliability,78
+368,"Location (35.0351, -85.3120)",59,6231,99,58,459,moderate,800,True,105.61016949152543,37.11,25.91,100,99.42,20.71,54.03,excellent,High Reliability,79
+239,"Location (35.0361, -85.2689)",77,4163,88,183,530,moderate,800,True,54.064935064935064,48.43,17.31,100,98.17,18.41,53.87,excellent,High Reliability,80
+369,"Location (35.0353, -85.3131)",57,6089,94,52,490,moderate,800,True,106.82456140350877,35.85,25.31,100,99.48,19.67,53.45,excellent,High Reliability,81
+149,"Location (35.0346, -85.2698)",74,4040,80,71,514,moderate,800,True,54.5945945945946,46.54,16.8,100,99.29,16.74,53.24,excellent,High Reliability,82
+73,"Location (35.0339, -85.2680)",72,3916,77,62,520,moderate,800,True,54.388888888888886,45.28,16.28,100,99.38,16.11,52.72,excellent,High Reliability,83
+165,"Location (35.0439, -85.2878)",42,6010,165,100,555,moderate,800,True,143.0952380952381,26.42,24.99,100,99.0,34.52,52.4,excellent,High Reliability,84
+377,"Location (35.0523, -85.2978)",42,5570,187,143,502,moderate,800,True,132.61904761904762,26.42,23.16,100,98.57,39.12,52.25,excellent,High Reliability,85
+197,"Location (35.0457, -85.2877)",39,5803,176,89,517,moderate,800,True,148.7948717948718,24.53,24.13,100,99.11,36.82,51.92,excellent,High Reliability,86
+52,"Location (35.0554, -85.3148)",45,6231,123,352,592,moderate,800,True,138.46666666666667,28.3,25.91,100,96.48,25.73,51.89,excellent,High Reliability,87
+60,"Location (35.0346, -85.2663)",69,3736,74,182,531,moderate,800,True,54.14492753623188,43.4,15.53,100,98.18,15.48,51.78,excellent,High Reliability,88
+446,"Location (35.0412, -85.2989)",55,4991,77,41,509,moderate,800,True,90.74545454545455,34.59,20.75,100,99.59,16.11,51.42,excellent,High Reliability,89
+220,"Location (35.0394, -85.2659)",68,2794,77,104,560,moderate,800,True,41.088235294117645,42.77,11.62,100,98.96,16.11,50.63,excellent,High Reliability,90
+351,"Location (35.0441, -85.2791)",45,3407,157,47,500,moderate,800,True,75.71111111111111,28.3,14.16,100,99.53,32.85,49.54,excellent,High Reliability,91
+254,"Location (35.0401, -85.2715)",59,2810,77,78,445,moderate,800,True,47.6271186440678,37.11,11.68,100,99.22,16.11,49.28,excellent,High Reliability,92
+136,"Location (35.0434, -85.2808)",39,3802,163,76,493,moderate,800,True,97.48717948717949,24.53,15.81,100,99.24,34.1,49.17,excellent,High Reliability,93
+119,"Location (35.0438, -85.2821)",38,3772,159,133,506,moderate,800,True,99.26315789473684,23.9,15.68,100,98.67,33.26,48.81,excellent,High Reliability,94
+370,"Location (35.0495, -85.2880)",29,4856,163,283,532,moderate,800,True,167.44827586206895,18.24,20.19,100,97.17,34.1,48.6,excellent,High Reliability,95
+458,"Location (35.0308, -85.2699)",52,3297,54,60,476,moderate,800,True,63.40384615384615,32.7,13.71,100,99.4,11.3,48.33,excellent,High Reliability,96
+339,"Location (35.0328, -85.3132)",48,3708,57,56,528,moderate,800,True,77.25,30.19,15.42,100,99.44,11.92,48.28,excellent,High Reliability,97
+265,"Location (35.0373, -85.2639)",58,2606,61,243,552,moderate,800,True,44.93103448275862,36.48,10.83,100,97.57,12.76,48.28,excellent,High Reliability,98
+270,"Location (35.0349, -85.3148)",45,3596,57,165,531,moderate,800,True,79.91111111111111,28.3,14.95,100,98.35,11.92,47.51,excellent,High Reliability,99
+169,"Location (35.0316, -85.3046)",46,3525,61,348,582,moderate,800,True,76.6304347826087,28.93,14.66,100,96.52,12.76,47.38,excellent,High Reliability,100
+175,"Location (35.0322, -85.2740)",45,3292,47,64,447,moderate,800,True,73.15555555555555,28.3,13.69,100,99.36,9.83,47.07,excellent,High Reliability,101
+110,"Location (35.0308, -85.3055)",44,3275,54,299,610,moderate,800,True,74.43181818181819,27.67,13.62,100,97.01,11.3,46.68,excellent,High Reliability,102
+263,"Location (35.0499, -85.2870)",23,4126,141,343,552,moderate,800,True,179.3913043478261,14.47,17.15,100,96.57,29.5,46.2,excellent,High Reliability,103
+271,"Location (35.0494, -85.2763)",33,1813,124,58,545,moderate,800,True,54.93939393939394,20.75,7.54,100,99.42,25.94,44.96,excellent,High Reliability,104
+282,"Location (35.0090, -85.3241)",38,2584,39,102,500,moderate,800,True,68.0,23.9,10.74,100,98.98,8.16,44.86,excellent,High Reliability,105
+135,"Location (35.0147, -85.3261)",36,2685,40,106,519,moderate,800,True,74.58333333333333,22.64,11.16,100,98.94,8.37,44.69,excellent,High Reliability,106
+103,"Location (35.0575, -85.2541)",45,1202,49,67,527,moderate,800,True,26.711111111111112,28.3,5.0,100,99.33,10.25,44.5,excellent,High Reliability,107
+207,"Location (35.0155, -85.3245)",35,2610,39,59,442,moderate,800,True,74.57142857142857,22.01,10.85,100,99.41,8.16,44.49,excellent,High Reliability,108
+131,"Location (35.0588, -85.2533)",45,1203,49,102,509,moderate,800,True,26.733333333333334,28.3,5.0,100,98.98,10.25,44.45,excellent,High Reliability,109
+116,"Location (35.0350, -85.3162)",36,2395,44,296,563,moderate,800,True,66.52777777777777,22.64,9.96,100,97.04,9.21,44.12,excellent,High Reliability,110
+152,"Location (35.0228, -85.2752)",37,2066,38,157,527,moderate,800,True,55.83783783783784,23.27,8.59,100,98.43,7.95,43.95,excellent,High Reliability,111
+117,"Location (35.0101, -85.3267)",34,2333,36,99,496,moderate,800,True,68.61764705882354,21.38,9.7,100,99.01,7.53,43.86,excellent,High Reliability,112
+21,"Location (35.0295, -85.3069)",35,2263,42,258,633,moderate,800,True,64.65714285714286,22.01,9.41,100,97.42,8.79,43.82,excellent,High Reliability,113
+279,"Location (35.0411, -85.2619)",42,1198,45,238,529,moderate,800,True,28.523809523809526,26.42,4.98,100,97.62,9.41,43.68,excellent,High Reliability,114
+426,"Location (35.0651, -85.3101)",34,1961,42,100,405,moderate,800,True,57.6764705882353,21.38,8.15,100,99.0,8.79,43.52,excellent,High Reliability,115
+120,"Location (35.0456, -85.2590)",41,1073,41,191,518,moderate,800,True,26.170731707317074,25.79,4.46,100,98.09,8.58,43.36,excellent,High Reliability,116
+355,"Location (35.0655, -85.3108)",33,1901,41,130,401,moderate,800,True,57.60606060606061,20.75,7.9,100,98.7,8.58,43.22,excellent,High Reliability,117
+247,"Location (35.0487, -85.2783)",25,1573,115,85,421,moderate,800,True,62.92,15.72,6.54,100,99.15,24.06,43.17,excellent,High Reliability,118
+77,"Location (35.0373, -85.3177)",33,2077,39,311,574,moderate,800,True,62.93939393939394,20.75,8.64,100,96.89,8.16,43.13,excellent,High Reliability,119
+412,"Location (35.0613, -85.3093)",31,2087,41,155,477,moderate,800,True,67.3225806451613,19.5,8.68,100,98.45,8.58,43.1,excellent,High Reliability,120
+357,"Location (35.0628, -85.3110)",32,1885,40,78,445,moderate,800,True,58.90625,20.13,7.84,100,99.22,8.37,43.1,excellent,High Reliability,121
+326,"Location (35.0632, -85.3081)",31,1847,39,58,389,moderate,800,True,59.58064516129032,19.5,7.68,100,99.42,8.16,42.91,excellent,High Reliability,122
+260,"Location (35.0441, -85.2600)",39,967,39,251,512,moderate,800,True,24.794871794871796,24.53,4.02,100,97.49,8.16,42.78,excellent,High Reliability,123
+388,"Location (35.0171, -85.3234)",29,2111,33,68,337,moderate,800,True,72.79310344827586,18.24,8.78,100,99.32,6.9,42.78,excellent,High Reliability,124
+447,"Location (35.0628, -85.3062)",29,1815,37,55,419,moderate,800,True,62.58620689655172,18.24,7.55,100,99.45,7.74,42.52,excellent,High Reliability,125
+427,"Location (35.0628, -85.3131)",30,1765,38,136,499,moderate,800,True,58.833333333333336,18.87,7.34,100,98.64,7.95,42.51,excellent,High Reliability,126
+301,"Location (35.0632, -85.3124)",30,1765,38,172,452,moderate,800,True,58.833333333333336,18.87,7.34,100,98.28,7.95,42.46,excellent,High Reliability,127
+91,"Location (35.0241, -85.2913)",35,1134,35,207,547,moderate,800,True,32.4,22.01,4.71,100,97.93,7.32,42.34,excellent,High Reliability,128
+394,"Location (35.0102, -85.2146)",24,2412,24,121,483,moderate,800,True,100.5,15.09,10.03,100,98.79,5.02,42.1,excellent,High Reliability,129
+176,"Location (35.0433, -85.2582)",34,894,34,72,510,moderate,800,True,26.294117647058822,21.38,3.72,100,99.28,7.11,42.06,excellent,High Reliability,130
+380,"Location (35.0619, -85.3081)",27,1695,35,73,384,moderate,800,True,62.77777777777778,16.98,7.05,100,99.27,7.32,41.98,excellent,High Reliability,131
+253,"Location (35.0448, -85.3203)",22,2452,24,44,416,moderate,800,True,111.45454545454545,13.84,10.19,100,99.56,5.02,41.95,excellent,High Reliability,132
+65,"Location (35.0632, -85.3147)",28,1499,34,92,544,moderate,800,True,53.535714285714285,17.61,6.23,100,99.08,7.11,41.85,excellent,High Reliability,133
+259,"Location (35.0257, -85.2775)",28,1570,28,76,435,moderate,800,True,56.07142857142857,17.61,6.53,100,99.24,5.86,41.83,excellent,High Reliability,134
+455,"Location (35.0630, -85.3031)",26,1805,34,189,488,moderate,800,True,69.42307692307692,16.35,7.5,100,98.11,7.11,41.77,excellent,High Reliability,135
+171,"Location (35.0612, -85.3059)",25,1809,35,113,433,moderate,800,True,72.36,15.72,7.52,100,98.87,7.32,41.75,excellent,High Reliability,136
+444,"Location (35.0226, -85.3200)",26,1756,30,181,574,moderate,800,True,67.53846153846153,16.35,7.3,100,98.19,6.28,41.63,excellent,High Reliability,137
+154,"Location (35.0090, -85.3291)",26,1687,26,84,478,moderate,800,True,64.88461538461539,16.35,7.01,100,99.16,5.44,41.61,excellent,High Reliability,138
+236,"Location (35.0401, -85.2587)",31,893,31,66,506,moderate,800,True,28.806451612903224,19.5,3.71,100,99.34,6.49,41.54,excellent,High Reliability,139
+443,"Location (35.0103, -85.2126)",22,2205,22,87,461,moderate,800,True,100.22727272727273,13.84,9.17,100,99.13,4.6,41.54,excellent,High Reliability,140
+178,"Location (35.0213, -85.3238)",26,1782,30,307,572,moderate,800,True,68.53846153846153,16.35,7.41,100,96.93,6.28,41.48,excellent,High Reliability,141
+416,"Location (35.0116, -85.2134)",22,2205,22,144,484,moderate,800,True,100.22727272727273,13.84,9.17,100,98.56,4.6,41.45,excellent,High Reliability,142
+173,"Location (35.0098, -85.2182)",21,2173,21,76,434,moderate,800,True,103.47619047619048,13.21,9.03,100,99.24,4.39,41.34,excellent,High Reliability,143
+54,"Location (35.0093, -85.2136)",21,2101,21,55,442,moderate,800,True,100.04761904761905,13.21,8.73,100,99.45,4.39,41.28,excellent,High Reliability,144
+309,"Location (35.0601, -85.3027)",21,1792,46,158,526,moderate,800,True,85.33333333333333,13.21,7.45,100,98.42,9.62,41.26,excellent,High Reliability,145
+420,"Location (35.0127, -85.2288)",20,2069,20,48,412,moderate,800,True,103.45,12.58,8.6,100,99.52,4.18,41.07,excellent,High Reliability,146
+445,"Location (35.0103, -85.2197)",20,2069,20,61,400,moderate,800,True,103.45,12.58,8.6,100,99.39,4.18,41.05,excellent,High Reliability,147
+378,"Location (35.0167, -85.2357)",20,2070,20,72,423,moderate,800,True,103.5,12.58,8.61,100,99.28,4.18,41.04,excellent,High Reliability,148
+315,"Location (35.0109, -85.2239)",20,2069,20,95,399,moderate,800,True,103.45,12.58,8.6,100,99.05,4.18,41.0,excellent,High Reliability,149
+41,"Location (35.0119, -85.2118)",21,2101,21,270,485,moderate,800,True,100.04761904761905,13.21,8.73,100,97.3,4.39,40.96,excellent,High Reliability,150
+67,"Location (35.0378, -85.2588)",28,988,28,215,506,moderate,800,True,35.285714285714285,17.61,4.11,100,97.85,5.86,40.9,excellent,High Reliability,151
+408,"Location (35.0106, -85.2120)",20,1998,20,154,439,moderate,800,True,99.9,12.58,8.31,100,98.46,4.18,40.82,excellent,High Reliability,152
+142,"Location (35.0196, -85.3137)",23,1517,23,158,573,moderate,800,True,65.95652173913044,14.47,6.31,100,98.42,4.81,40.75,excellent,High Reliability,153
+158,"Location (35.0185, -85.2388)",19,1967,19,96,400,moderate,800,True,103.52631578947368,11.95,8.18,100,99.04,3.97,40.69,excellent,High Reliability,154
+59,"Location (35.0243, -85.2452)",19,1922,19,77,424,moderate,800,True,101.15789473684211,11.95,7.99,100,99.23,3.97,40.67,excellent,High Reliability,155
+36,"Location (35.0142, -85.2121)",19,1895,19,133,544,moderate,800,True,99.73684210526316,11.95,7.88,100,98.67,3.97,40.55,excellent,High Reliability,156
+5,"Location (34.9952, -85.3113)",22,1650,22,309,568,moderate,800,True,75.0,13.84,6.86,100,96.91,4.6,40.51,excellent,High Reliability,157
+245,"Location (35.0194, -85.2396)",18,1864,18,51,370,moderate,800,True,103.55555555555556,11.32,7.75,100,99.49,3.77,40.46,excellent,High Reliability,158
+38,"Location (35.0084, -85.2163)",19,1966,19,261,448,moderate,800,True,103.47368421052632,11.95,8.17,100,97.39,3.97,40.45,excellent,High Reliability,159
+145,"Location (35.0679, -85.3144)",24,1027,25,82,438,moderate,800,True,42.791666666666664,15.09,4.27,100,99.18,5.23,40.45,excellent,High Reliability,160
+261,"Location (35.0224, -85.2433)",18,1818,18,57,368,moderate,800,True,101.0,11.32,7.56,100,99.43,3.77,40.39,excellent,High Reliability,161
+227,"Location (34.9871, -85.2876)",21,1230,27,82,351,moderate,800,True,58.57142857142857,13.21,5.11,100,99.18,5.65,40.28,excellent,High Reliability,162
+226,"Location (35.0600, -85.3011)",20,1536,28,266,570,moderate,800,True,76.8,12.58,6.39,100,97.34,5.86,40.25,excellent,High Reliability,163
+214,"Location (35.0229, -85.2482)",18,1818,18,217,476,moderate,800,True,101.0,11.32,7.56,100,97.83,3.77,40.15,excellent,High Reliability,164
+28,"Location (35.0404, -85.3213)",20,1270,20,144,551,moderate,800,True,63.5,12.58,5.28,100,98.56,4.18,39.93,excellent,High Reliability,165
+213,"Location (35.0624, -85.2982)",18,1350,23,87,492,moderate,800,True,75.0,11.32,5.61,100,99.13,4.81,39.86,excellent,High Reliability,166
+231,"Location (35.0061, -85.2141)",17,1760,17,262,523,moderate,800,True,103.52941176470588,10.69,7.32,100,97.38,3.56,39.83,excellent,High Reliability,167
+336,"Location (35.0452, -85.1613)",16,1653,16,84,396,moderate,800,True,103.3125,10.06,6.87,100,99.16,3.35,39.79,excellent,High Reliability,168
+277,"Location (35.0149, -85.2092)",16,1584,16,37,497,moderate,800,True,99.0,10.06,6.59,100,99.63,3.35,39.77,excellent,High Reliability,169
+85,"Location (35.1065, -85.2718)",19,1140,19,47,463,moderate,800,True,60.0,11.95,4.74,100,99.53,3.97,39.74,excellent,High Reliability,170
+439,"Location (35.0686, -85.2890)",18,1080,18,44,390,moderate,800,True,60.0,11.32,4.49,100,99.56,3.77,39.49,excellent,High Reliability,171
+414,"Location (35.0455, -85.1624)",15,1551,15,88,375,moderate,800,True,103.4,9.43,6.45,100,99.12,3.14,39.47,excellent,High Reliability,172
+436,"Location (35.0614, -85.2981)",17,1290,22,186,532,moderate,800,True,75.88235294117646,10.69,5.36,100,98.14,4.6,39.46,excellent,High Reliability,173
+217,"Location (35.0152, -85.2208)",17,1758,17,509,588,moderate,800,True,103.41176470588235,10.69,7.31,100,94.91,3.56,39.46,excellent,High Reliability,174
+399,"Location (35.0690, -85.2886)",18,1080,18,68,400,moderate,800,True,60.0,11.32,4.49,100,99.32,3.77,39.45,excellent,High Reliability,175
+7,"Location (35.0098, -85.2057)",15,1480,15,158,570,moderate,800,True,98.66666666666667,9.43,6.15,100,98.42,3.14,39.28,excellent,High Reliability,176
+349,"Location (35.1020, -85.2747)",17,1020,17,30,330,moderate,800,True,60.0,10.69,4.24,100,99.7,3.56,39.26,excellent,High Reliability,177
+127,"Location (35.0068, -85.2108)",14,1449,14,46,389,moderate,800,True,103.5,8.81,6.02,100,99.54,2.93,39.23,excellent,High Reliability,178
+97,"Location (35.0210, -85.2908)",21,378,21,93,412,moderate,800,True,18.0,13.21,1.57,100,99.07,4.39,39.07,excellent,High Reliability,179
+374,"Location (35.1132, -85.2641)",16,960,16,59,450,moderate,800,True,60.0,10.06,3.99,100,99.41,3.35,38.96,excellent,High Reliability,180
+232,"Location (35.0205, -85.2881)",20,360,20,63,414,moderate,800,True,18.0,12.58,1.5,100,99.37,4.18,38.92,excellent,High Reliability,181
+401,"Location (35.1014, -85.2741)",16,960,16,105,342,moderate,800,True,60.0,10.06,3.99,100,98.95,3.35,38.89,excellent,High Reliability,182
+307,"Location (35.0469, -85.3216)",16,965,16,119,400,moderate,800,True,60.3125,10.06,4.01,100,98.81,3.35,38.88,excellent,High Reliability,183
+262,"Location (35.0388, -85.1575)",13,1448,13,187,546,moderate,800,True,111.38461538461539,8.18,6.02,100,98.13,2.72,38.84,excellent,High Reliability,184
+269,"Location (35.0245, -85.3113)",16,992,16,218,580,moderate,800,True,62.0,10.06,4.12,100,97.82,3.35,38.76,excellent,High Reliability,185
+96,"Location (35.0152, -85.2073)",13,1274,13,119,447,moderate,800,True,98.0,8.18,5.3,100,98.81,2.72,38.73,excellent,High Reliability,186
+31,"Location (35.0462, -85.3227)",16,965,16,244,454,moderate,800,True,60.3125,10.06,4.01,100,97.56,3.35,38.69,excellent,High Reliability,187
+244,"Location (35.1181, -85.2505)",15,900,15,90,442,moderate,800,True,60.0,9.43,3.74,100,99.1,3.14,38.66,excellent,High Reliability,188
+421,"Location (35.0266, -85.2538)",12,1196,12,66,377,moderate,800,True,99.66666666666667,7.55,4.97,100,99.34,2.51,38.53,excellent,High Reliability,189
+392,"Location (35.0484, -85.3204)",14,839,14,43,394,moderate,800,True,59.92857142857143,8.81,3.49,100,99.57,2.93,38.48,excellent,High Reliability,190
+24,"Location (35.0395, -85.1549)",11,1242,11,78,504,moderate,800,True,112.9090909090909,6.92,5.16,100,99.22,2.3,38.39,excellent,High Reliability,191
+179,"Location (35.0484, -85.3213)",14,839,14,113,427,moderate,800,True,59.92857142857143,8.81,3.49,100,98.87,2.93,38.37,excellent,High Reliability,192
+285,"Location (35.0251, -85.3177)",14,764,14,60,391,moderate,800,True,54.57142857142857,8.81,3.18,100,99.4,2.93,38.36,excellent,High Reliability,193
+250,"Location (35.0055, -85.2228)",13,1345,13,542,658,moderate,800,True,103.46153846153847,8.18,5.59,100,94.58,2.72,38.18,excellent,High Reliability,194
+400,"Location (35.0440, -85.1566)",11,1136,11,141,402,moderate,800,True,103.27272727272727,6.92,4.72,100,98.59,2.3,38.17,excellent,High Reliability,195
+302,"Location (35.0072, -85.2079)",11,1138,11,157,395,moderate,800,True,103.45454545454545,6.92,4.73,100,98.43,2.3,38.14,excellent,High Reliability,196
+20,Hixson Plaza,13,780,13,113,376,moderate,800,True,60.0,8.18,3.24,100,98.87,2.72,38.12,excellent,High Reliability,197
+75,"Location (35.0366, -85.1597)",10,1138,10,74,603,moderate,800,True,113.8,6.29,4.73,100,99.26,2.09,38.09,excellent,High Reliability,198
+362,"Location (35.0056, -85.2211)",12,1242,12,504,617,moderate,800,True,103.5,7.55,5.16,100,94.96,2.51,37.93,excellent,High Reliability,199
+95,"Location (35.0369, -85.1581)",10,1138,10,216,547,moderate,800,True,113.8,6.29,4.73,100,97.84,2.09,37.88,excellent,High Reliability,200
+12,"Location (35.0266, -85.1941)",10,1034,10,183,489,moderate,800,True,103.4,6.29,4.3,100,98.17,2.09,37.8,excellent,High Reliability,201
+151,"Location (35.1293, -85.2475)",11,674,11,100,502,moderate,800,True,61.27272727272727,6.92,2.8,100,99.0,2.3,37.65,excellent,High Reliability,202
+128,"Location (35.0543, -85.2811)",11,337,34,159,578,moderate,800,True,30.636363636363637,6.92,1.4,100,98.41,7.11,37.62,excellent,High Reliability,203
+133,"Location (35.0580, -85.2772)",10,381,33,101,559,moderate,800,True,38.1,6.29,1.58,100,98.99,6.9,37.59,excellent,High Reliability,204
+294,"Location (35.0499, -85.3206)",11,650,11,173,474,moderate,800,True,59.09090909090909,6.92,2.7,100,98.27,2.3,37.51,excellent,High Reliability,205
+423,"Location (35.0323, -85.1858)",9,931,9,189,467,moderate,800,True,103.44444444444444,5.66,3.87,100,98.11,1.88,37.48,excellent,High Reliability,206
+29,"Location (35.0365, -85.1552)",9,1035,9,292,500,moderate,800,True,115.0,5.66,4.3,100,97.08,1.88,37.46,excellent,High Reliability,207
+300,"Location (35.0467, -85.1549)",10,1033,10,467,626,moderate,800,True,103.3,6.29,4.29,100,95.33,2.09,37.37,excellent,High Reliability,208
+356,"Location (35.0318, -85.1846)",8,827,8,154,396,moderate,800,True,103.375,5.03,3.44,100,98.46,1.67,37.23,excellent,High Reliability,209
+293,"Location (35.1237, -85.2408)",12,734,12,572,685,moderate,800,True,61.166666666666664,7.55,3.05,100,94.28,2.51,37.2,excellent,High Reliability,210
+156,"Location (35.0327, -85.1841)",8,827,8,262,433,moderate,800,True,103.375,5.03,3.44,100,97.38,1.67,37.06,excellent,High Reliability,211
+76,"Location (35.0475, -85.1568)",9,930,9,480,567,moderate,800,True,103.33333333333333,5.66,3.87,100,95.2,1.88,37.04,excellent,High Reliability,212
+289,"Location (35.0289, -85.2417)",10,990,10,662,695,moderate,800,True,99.0,6.29,4.12,100,93.38,2.09,37.02,excellent,High Reliability,213
+258,"Location (35.0114, -85.2393)",9,932,9,620,667,moderate,800,True,103.55555555555556,5.66,3.87,100,93.8,1.88,36.84,excellent,High Reliability,214
+10,"Location (35.0348, -85.1568)",7,828,7,338,452,moderate,800,True,118.28571428571429,4.4,3.44,100,96.62,1.46,36.77,excellent,High Reliability,215
+182,"Location (35.0730, -85.1843)",10,170,10,153,471,moderate,800,True,17.0,6.29,0.71,100,98.47,2.09,36.76,excellent,High Reliability,216
+266,"Location (35.0807, -85.2638)",8,212,14,56,307,moderate,800,True,26.5,5.03,0.88,100,99.44,2.93,36.73,excellent,High Reliability,217
+198,"Location (35.0546, -85.2827)",8,238,22,206,624,moderate,800,True,29.75,5.03,0.99,100,97.94,4.6,36.71,excellent,High Reliability,218
+58,"Location (35.0353, -85.1609)",6,724,6,177,575,moderate,800,True,120.66666666666667,3.77,3.01,100,98.23,1.26,36.71,excellent,High Reliability,219
+115,"Location (35.0331, -85.1567)",6,725,6,235,449,moderate,800,True,120.83333333333333,3.77,3.01,100,97.65,1.26,36.62,excellent,High Reliability,220
+34,"Location (35.1296, -85.2415)",7,434,7,110,494,moderate,800,True,62.0,4.4,1.8,100,98.9,1.46,36.62,excellent,High Reliability,221
+441,"Location (35.1225, -85.2404)",10,614,10,697,727,moderate,800,True,61.4,6.29,2.55,100,93.03,2.09,36.5,excellent,High Reliability,222
+17,"Location (35.0321, -85.1578)",5,622,5,117,450,moderate,800,True,124.4,3.14,2.59,100,98.83,1.05,36.49,excellent,High Reliability,223
+206,"Location (35.0782, -85.2666)",7,194,12,87,483,moderate,800,True,27.714285714285715,4.4,0.81,100,99.13,2.51,36.46,excellent,High Reliability,224
+238,"Location (35.1338, -85.2408)",6,420,6,110,596,moderate,800,True,70.0,3.77,1.75,100,98.9,1.26,36.43,excellent,High Reliability,225
+297,"Location (35.0565, -85.2797)",7,173,15,135,493,moderate,800,True,24.714285714285715,4.4,0.72,100,98.65,3.14,36.43,excellent,High Reliability,226
+219,"Location (35.0754, -85.2644)",8,226,14,290,595,moderate,800,True,28.25,5.03,0.94,100,97.1,2.93,36.4,excellent,High Reliability,227
+193,"Location (35.0717, -85.1848)",9,153,9,284,497,moderate,800,True,17.0,5.66,0.64,100,97.16,1.88,36.37,excellent,High Reliability,228
+81,"Location (35.0743, -85.1868)",8,136,8,170,399,moderate,800,True,17.0,5.03,0.57,100,98.3,1.67,36.34,excellent,High Reliability,229
+387,"Location (35.0470, -85.1537)",7,723,7,566,663,moderate,800,True,103.28571428571429,4.4,3.01,100,94.34,1.46,36.3,excellent,High Reliability,230
+243,"Location (35.1330, -85.2406)",5,360,5,45,532,moderate,800,True,72.0,3.14,1.5,100,99.55,1.05,36.27,excellent,High Reliability,231
+42,"Location (35.0338, -85.1606)",5,621,5,267,533,moderate,800,True,124.2,3.14,2.58,100,97.33,1.05,36.26,excellent,High Reliability,232
+9,VWGoA,7,106,8,102,473,moderate,800,True,15.142857142857142,4.4,0.44,100,98.98,1.67,36.25,excellent,High Reliability,233
+210,"Location (35.0323, -85.1595)",4,518,4,73,424,moderate,800,True,129.5,2.52,2.15,100,99.27,0.84,36.25,excellent,High Reliability,234
+365,"Location (35.0652, -85.2739)",7,169,11,197,642,moderate,800,True,24.142857142857142,4.4,0.7,100,98.03,2.3,36.25,excellent,High Reliability,235
+84,"Location (35.0810, -85.2970)",8,480,8,627,688,moderate,800,True,60.0,5.03,2.0,100,93.73,1.67,36.08,excellent,High Reliability,236
+275,"Location (35.0545, -85.3196)",5,927,7,678,749,moderate,800,True,185.4,3.14,3.85,100,93.22,1.46,36.07,excellent,High Reliability,237
+15,"Location (35.1343, -85.2443)",6,420,6,347,557,moderate,800,True,70.0,3.77,1.75,100,96.53,1.26,36.07,excellent,High Reliability,238
+35,"Location (35.1314, -85.2414)",5,314,5,157,456,moderate,800,True,62.8,3.14,1.31,100,98.43,1.05,36.05,excellent,High Reliability,239
+2,"Location (35.1132, -85.2471)",7,420,7,478,608,moderate,800,True,60.0,4.4,1.75,100,95.22,1.46,36.05,excellent,High Reliability,240
+48,"Location (35.0574, -85.2803)",5,141,10,167,421,moderate,800,True,28.2,3.14,0.59,100,98.33,2.09,35.92,excellent,High Reliability,241
+230,"Location (35.1320, -85.2399)",4,300,4,129,473,moderate,800,True,75.0,2.52,1.25,100,98.71,0.84,35.89,excellent,High Reliability,242
+86,"Location (35.1268, -85.2384)",5,314,5,306,660,moderate,800,True,62.8,3.14,1.31,100,96.94,1.05,35.82,excellent,High Reliability,243
+201,"Location (35.0287, -85.2010)",6,620,6,706,739,moderate,800,True,103.33333333333333,3.77,2.58,100,92.94,1.26,35.78,excellent,High Reliability,244
+57,"Location (35.1355, -85.2454)",5,300,5,346,548,moderate,800,True,60.0,3.14,1.25,100,96.54,1.05,35.75,excellent,High Reliability,245
+70,"Location (35.1287, -85.2380)",4,300,4,248,581,moderate,800,True,75.0,2.52,1.25,100,97.52,0.84,35.71,excellent,High Reliability,246
+359,"Location (35.0308, -85.1743)",5,517,5,568,642,moderate,800,True,103.4,3.14,2.15,100,94.32,1.05,35.68,excellent,High Reliability,247
+195,"Location (35.1310, -85.2387)",4,300,4,289,524,moderate,800,True,75.0,2.52,1.25,100,97.11,0.84,35.65,excellent,High Reliability,248
+196,"Location (35.1336, -85.2397)",3,240,3,145,457,moderate,800,True,80.0,1.89,1.0,100,98.55,0.63,35.62,excellent,High Reliability,249
+161,Cell Waiting Lot,5,517,5,608,684,moderate,800,True,103.4,3.14,2.15,100,93.92,1.05,35.62,excellent,High Reliability,250
+98,"Location (35.1246, -85.2392)",5,314,5,487,707,moderate,800,True,62.8,3.14,1.31,100,95.13,1.05,35.55,excellent,High Reliability,251
+99,"Location (35.0387, -85.1471)",4,414,4,499,693,moderate,800,True,103.5,2.52,1.72,100,95.01,0.84,35.48,excellent,High Reliability,252
+187,"Location (35.1345, -85.2393)",3,240,3,244,508,moderate,800,True,80.0,1.89,1.0,100,97.56,0.63,35.47,excellent,High Reliability,253
+274,"Location (35.0404, -85.1490)",4,414,4,513,616,moderate,800,True,103.5,2.52,1.72,100,94.87,0.84,35.46,excellent,High Reliability,254
+16,"Location (35.1371, -85.2424)",3,180,3,234,388,moderate,800,True,60.0,1.89,0.75,100,97.66,0.63,35.41,excellent,High Reliability,255
+90,Highland Plaza,2,120,2,170,285,moderate,800,True,60.0,1.26,0.5,100,98.3,0.42,35.25,excellent,Moderate Reliability,256
+13,"Location (35.1397, -85.2457)",2,120,2,174,179,moderate,800,True,60.0,1.26,0.5,100,98.26,0.42,35.24,excellent,Moderate Reliability,257
+49,"Location (35.1323, -85.2382)",2,180,2,258,352,moderate,800,True,90.0,1.26,0.75,100,97.42,0.42,35.19,excellent,Moderate Reliability,258
+93,"Location (35.0978, -85.2685)",5,300,5,751,765,moderate,800,True,60.0,3.14,1.25,100,92.49,1.05,35.14,excellent,High Reliability,259
+47,"Location (35.1304, -85.2379)",2,180,2,310,350,moderate,800,True,90.0,1.26,0.75,100,96.9,0.42,35.12,excellent,Moderate Reliability,260
+123,"Location (35.0117, -85.2427)",4,414,4,758,767,moderate,800,True,103.5,2.52,1.72,100,92.42,0.84,35.09,excellent,High Reliability,261
+166,"Location (35.1325, -85.2367)",2,180,2,395,472,moderate,800,True,90.0,1.26,0.75,100,96.05,0.42,34.99,excellent,Moderate Reliability,262
+138,"Location (35.0630, -85.3218)",4,196,4,668,720,moderate,800,True,49.0,2.52,0.81,100,93.32,0.84,34.95,excellent,High Reliability,263
+148,"Location (35.1304, -85.2352)",2,180,2,526,556,moderate,800,True,90.0,1.26,0.75,100,94.74,0.42,34.79,excellent,Moderate Reliability,264
+32,"Location (35.1319, -85.2351)",2,180,2,546,580,moderate,800,True,90.0,1.26,0.75,100,94.54,0.42,34.76,excellent,Moderate Reliability,265
+233,"Location (35.1246, -85.2368)",1,120,1,588,588,moderate,800,True,120.0,0.63,0.5,100,94.12,0.21,34.45,excellent,Low Reliability,266
+311,"Location (35.0609, -85.3222)",2,120,2,715,718,moderate,800,True,60.0,1.26,0.5,100,92.85,0.42,34.43,excellent,Moderate Reliability,267
+126,"Location (35.0871, -85.1891)",9,86,9,69,403,moderate,800,True,9.555555555555555,5.66,0.36,80,99.31,1.88,32.61,good,High Reliability,268
+202,"Location (35.0730, -85.2366)",8,75,8,122,431,moderate,800,True,9.375,5.03,0.31,80,98.78,1.67,32.34,good,High Reliability,269
+11,VWGoA,6,89,7,114,330,moderate,800,True,14.833333333333334,3.77,0.37,80,98.86,1.46,32.03,good,High Reliability,270
+390,"Location (35.0721, -85.1320)",6,89,7,208,407,moderate,800,True,14.833333333333334,3.77,0.37,80,97.92,1.46,31.89,good,High Reliability,271
+118,"Location (35.0641, -85.2729)",5,92,8,123,553,moderate,800,True,18.4,3.14,0.38,80,98.77,1.67,31.88,good,High Reliability,272
+30,"Location (35.0714, -85.1375)",6,98,7,307,492,moderate,800,True,16.333333333333332,3.77,0.41,80,96.93,1.46,31.75,good,High Reliability,273
+218,"Location (35.1003, -85.2398)",4,96,5,93,385,moderate,800,True,24.0,2.52,0.4,80,99.07,1.05,31.71,good,High Reliability,274
+104,"Location (35.0700, -85.1410)",4,68,4,65,371,moderate,800,True,17.0,2.52,0.28,80,99.35,0.84,31.7,good,High Reliability,275
+225,"Location (35.0730, -85.1531)",5,83,7,263,348,moderate,800,True,16.6,3.14,0.35,80,97.37,1.46,31.64,good,High Reliability,276
+53,"Location (35.0985, -85.2375)",4,96,5,194,386,moderate,800,True,24.0,2.52,0.4,80,98.06,1.05,31.56,good,High Reliability,277
+82,"Location (35.0981, -85.2447)",4,96,5,213,415,moderate,800,True,24.0,2.52,0.4,80,97.87,1.05,31.53,good,High Reliability,278
+72,"Location (35.0985, -85.2411)",4,96,5,229,275,moderate,800,True,24.0,2.52,0.4,80,97.71,1.05,31.51,good,High Reliability,279
+376,"Location (35.0964, -85.2532)",4,96,6,289,490,moderate,800,True,24.0,2.52,0.4,80,97.11,1.26,31.44,good,High Reliability,280
+303,"Location (35.0959, -85.2549)",4,81,5,288,404,moderate,800,True,20.25,2.52,0.34,80,97.12,1.05,31.4,good,High Reliability,281
+162,"Location (35.0554, -85.2832)",3,80,6,205,377,moderate,800,True,26.666666666666668,1.89,0.33,80,97.95,1.26,31.39,good,High Reliability,282
+256,"Location (35.0625, -85.2756)",3,56,4,175,316,moderate,800,True,18.666666666666668,1.89,0.23,80,98.25,0.84,31.36,good,High Reliability,283
+144,"Location (35.0997, -85.2429)",4,96,5,352,405,moderate,800,True,24.0,2.52,0.4,80,96.48,1.05,31.33,good,High Reliability,284
+46,"Location (35.1015, -85.2385)",3,64,3,198,446,moderate,800,True,21.333333333333332,1.89,0.27,80,98.02,0.63,31.32,good,High Reliability,285
+215,"Location (35.0695, -85.1516)",4,78,6,528,650,moderate,800,True,19.5,2.52,0.32,80,94.72,1.26,31.06,good,High Reliability,286
+183,"Location (35.0733, -85.1997)",3,51,3,366,511,moderate,800,True,17.0,1.89,0.21,80,96.34,0.63,31.05,good,High Reliability,287
+37,"Location (35.1008, -85.2344)",3,64,3,440,621,moderate,800,True,21.333333333333332,1.89,0.27,80,95.6,0.63,30.95,good,High Reliability,288
+384,"Location (35.1421, -85.2378)",1,60,1,709,709,moderate,800,True,60.0,0.63,0.25,80,92.91,0.21,30.19,good,Low Reliability,289
+134,CCA lot,1,76,1,755,755,moderate,800,True,76.0,0.63,0.32,80,92.45,0.21,30.14,good,Low Reliability,290
+122,"Location (35.1434, -85.2381)",1,60,1,778,778,moderate,800,True,60.0,0.63,0.25,80,92.22,0.21,30.09,good,Low Reliability,291
+366,"Location (35.1449, -85.2405)",1,60,1,778,778,moderate,800,True,60.0,0.63,0.25,80,92.22,0.21,30.09,good,Low Reliability,292
+88,"Location (35.0865, -85.1334)",1,39,2,32,32,moderate,800,True,39.0,0.63,0.16,60,99.68,0.42,27.2,fair,Low Reliability,293
+344,"Location (35.0891, -85.1773)",4,39,4,393,485,moderate,800,True,9.75,2.52,0.16,60,96.07,0.84,27.17,fair,Moderate Reliability,294
+69,"Location (35.0857, -85.1316)",1,39,2,212,212,moderate,800,True,39.0,0.63,0.16,60,97.88,0.42,26.93,fair,Low Reliability,295
+27,Trailer Yard,1,39,2,417,417,moderate,800,True,39.0,0.63,0.16,60,95.83,0.42,26.62,fair,Low Reliability,296
+229,Oakwood Baptist Church Parking Lot,3,44,3,680,733,moderate,800,True,14.666666666666666,1.89,0.18,60,93.2,0.63,26.57,fair,Moderate Reliability,297
+87,"Location (35.0681, -85.1478)",2,34,2,610,638,moderate,800,True,17.0,1.26,0.14,60,93.9,0.42,26.48,fair,Moderate Reliability,298
+257,"Location (35.0748, -85.2029)",2,34,2,620,646,moderate,800,True,17.0,1.26,0.14,60,93.8,0.42,26.47,fair,Moderate Reliability,299
+180,"Location (35.0911, -85.1313)",1,39,2,546,546,moderate,800,True,39.0,0.63,0.16,60,94.54,0.42,26.43,fair,Low Reliability,300
+324,"Location (35.0912, -85.2237)",1,17,1,443,443,moderate,800,True,17.0,0.63,0.07,40,95.57,0.21,22.53,limited,Low Reliability,301
+343,"Location (35.0770, -85.2041)",2,27,2,768,771,moderate,800,True,13.5,1.26,0.11,40,92.32,0.42,22.24,limited,Low Reliability,302
+140,"Location (35.0488, -85.2413)",5,5,5,106,520,moderate,800,True,1.0,3.14,0.02,0,98.94,1.05,15.74,poor,Unreliable,303
+79,"Location (35.0408, -85.2200)",4,4,4,292,441,moderate,800,False,1.0,2.52,0.02,0,97.08,0.84,15.28,poor,Unreliable,304
+172,"Location (35.0599, -85.1340)",1,5,1,154,154,moderate,800,True,5.0,0.63,0.02,0,98.46,0.21,14.95,poor,Unreliable,305
+141,"Location (35.0554, -85.1895)",1,1,1,453,453,moderate,800,False,1.0,0.63,0.0,0,95.47,0.21,14.5,poor,Unreliable,306
+22,"Location (35.0565, -85.1899)",1,1,1,457,457,moderate,800,False,1.0,0.63,0.0,0,95.43,0.21,14.49,poor,Unreliable,307
+121,"Location (35.0582, -85.1912)",1,1,1,497,497,moderate,800,False,1.0,0.63,0.0,0,95.03,0.21,14.43,poor,Unreliable,308
+71,"Location (35.0616, -85.1407)",1,5,1,517,517,moderate,800,True,5.0,0.63,0.02,0,94.83,0.21,14.41,poor,Unreliable,309
+212,"Location (35.0624, -85.1295)",1,5,1,525,525,moderate,800,True,5.0,0.63,0.02,0,94.75,0.21,14.4,poor,Unreliable,310
+33,"Location (35.0589, -85.1913)",1,1,1,563,563,moderate,800,False,1.0,0.63,0.0,0,94.37,0.21,14.33,poor,Unreliable,311
+185,"Location (35.0558, -85.1319)",1,5,1,652,652,moderate,800,True,5.0,0.63,0.02,0,93.48,0.21,14.21,poor,Unreliable,312
+132,"Location (35.0592, -85.1893)",1,1,1,690,690,moderate,800,False,1.0,0.63,0.0,0,93.1,0.21,14.14,poor,Unreliable,313
+429,"Location (35.0557, -85.1862)",1,1,1,754,754,moderate,800,False,1.0,0.63,0.0,0,92.46,0.21,14.05,poor,Unreliable,314
+56,"Location (35.0567, -85.1286)",1,5,1,760,760,moderate,800,True,5.0,0.63,0.02,0,92.4,0.21,14.04,poor,Unreliable,315
+55,"Location (35.0053, -85.1493)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,316
+62,"Location (35.1383, -85.2797)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,317
+63,"Location (35.0501, -85.1270)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,318
+66,"Location (35.0081, -85.3889)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,319
+64,"Location (35.0302, -85.2171)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,320
+68,"Location (35.0124, -85.1897)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,321
+391,"Location (35.0350, -85.2069)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,322
+393,"Location (35.0915, -85.0651)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,323
+51,Publix Parking Lot,0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,324
+19,Long Term Lot 2,0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,325
+23,"Location (35.1182, -85.3150)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,326
+26,"Location (35.1160, -85.2772)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,327
+14,"Location (35.1466, -85.2510)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,328
+437,"Location (35.0566, -85.1256)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,329
+432,"Location (35.0532, -85.1858)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,330
+102,"Location (35.0059, -85.3898)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,331
+288,"Location (35.1208, -85.2904)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,332
+286,"Location (35.0664, -85.1259)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,333
+281,"Location (35.0591, -85.1535)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,334
+280,"Location (35.0587, -85.1503)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,335
+278,"Location (35.1455, -85.2208)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,336
+276,"Location (35.1002, -85.1353)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,337
+273,"Location (35.1149, -85.2919)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,338
+272,"Location (35.0114, -85.1634)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,339
+264,"Location (35.1193, -85.2882)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,340
+248,Ooltewah High School's Parking Lot #3,0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,341
+251,"Location (35.0911, -85.0611)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,342
+246,"Location (35.1445, -85.2190)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,343
+241,"Location (35.0564, -85.1259)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,344
+237,"Location (35.0488, -85.1461)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,345
+240,"Location (35.1240, -85.3062)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,346
+147,"Location (35.1593, -85.1957)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,347
+146,"Location (35.0069, -85.3887)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,348
+235,"Location (35.0107, -85.1644)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,349
+234,"Location (35.1073, -85.2372)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,350
+164,"Location (35.0823, -85.0555)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,351
+163,"Location (35.0142, -85.1878)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,352
+155,"Location (35.0186, -85.1714)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,353
+159,"Location (35.1072, -85.2956)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,354
+411,"Location (35.1243, -85.3020)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,355
+150,"Location (35.1089, -85.2135)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,356
+153,"Location (35.1194, -85.2907)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,357
+398,"Location (35.0925, -85.3044)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,358
+402,"Location (35.0930, -85.3052)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,359
+407,"Location (35.1551, -85.2482)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,360
+409,"Location (35.1526, -85.2421)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,361
+410,"Location (35.1467, -85.2214)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,362
+424,"Location (35.1284, -85.1973)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,363
+430,"Location (35.0120, -85.1584)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,364
+438,"Location (35.1021, -85.2307)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,365
+50,"Location (35.0094, -85.3878)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,366
+428,"Location (35.1095, -85.2188)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,367
+397,"Location (35.0823, -85.0584)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,368
+396,"Location (35.0201, -85.3403)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,369
+314,"Location (35.0871, -85.3372)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,370
+296,"Location (35.0075, -85.3910)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,371
+312,"Location (35.0608, -85.1881)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,372
+306,"Location (35.1201, -85.3055)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,373
+304,"Location (35.0833, -85.0578)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,374
+299,"Location (35.1287, -85.2139)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,375
+332,"Location (35.1218, -85.2935)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,376
+199,"Location (35.1305, -85.2177)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,377
+200,"Location (35.0080, -85.3917)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,378
+330,"Location (35.0257, -85.2176)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,379
+329,"Location (35.0448, -85.3571)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,380
+325,"Location (35.1342, -85.2822)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,381
+323,Short Term Lot,0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,382
+318,"Location (35.1511, -85.2485)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,383
+319,"Location (35.1221, -85.3072)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,384
+316,"Location (35.0818, -85.0849)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,385
+124,"Location (35.1105, -85.3209)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,386
+130,"Location (35.1035, -85.3245)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,387
+129,"Location (35.0129, -85.1886)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,388
+114,"Location (35.0822, -85.3207)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,389
+109,"Location (35.1148, -85.2930)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,390
+105,"Location (35.0069, -85.3905)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,391
+112,"Location (35.0343, -85.2190)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,392
+111,"Location (35.0633, -85.1634)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,393
+107,"Location (35.0129, -85.1873)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,394
+346,"Location (35.1409, -85.1748)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,395
+342,"Location (35.0199, -85.3403)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,396
+335,"Location (35.1103, -85.2954)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,397
+340,"Location (35.0433, -85.1403)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,398
+334,"Location (35.1127, -85.2054)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,399
+333,"Location (35.1408, -85.2294)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,400
+139,"Location (35.1081, -85.2368)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,401
+143,"Location (35.0526, -85.1851)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,402
+209,"Location (35.0575, -85.1258)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,403
+208,"Location (35.0842, -85.0707)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,404
+204,"Location (35.0126, -85.1632)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,405
+203,Rental Car Lot,0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,406
+216,"Location (35.0953, -85.0624)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,407
+221,"Location (35.1126, -85.3250)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,408
+223,"Location (35.0448, -85.3341)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,409
+228,"Location (35.0604, -85.1544)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,410
+442,"Location (35.1080, -85.2169)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,411
+440,"Location (35.1558, -85.2481)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,412
+80,"Location (35.0309, -85.3631)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,413
+83,Ooltewah High School's Parking Lot #1,0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,414
+354,"Location (35.0058, -85.2325)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,415
+167,"Location (35.0087, -85.3899)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,416
+452,"Location (35.1537, -85.2483)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,417
+450,"Location (35.1269, -85.2158)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,418
+174,"Location (35.1454, -85.2251)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,419
+170,"Location (35.1357, -85.2813)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,420
+168,"Location (35.1183, -85.2786)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,421
+353,"Location (35.1099, -85.2164)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,422
+78,"Location (35.0980, -85.3290)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,423
+74,"Location (35.0828, -85.0824)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,424
+348,"Location (35.0184, -85.3377)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,425
+350,"Location (35.0904, -85.0655)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,426
+188,"Location (35.1420, -85.2350)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,427
+186,"Location (35.0817, -85.0863)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,428
+184,"Location (35.0620, -85.1926)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,429
+181,"Location (35.1450, -85.2380)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,430
+177,"Location (35.0603, -85.1866)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,431
+89,"Location (35.0092, -85.3859)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,432
+194,"Location (35.1413, -85.2302)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,433
+189,"Location (35.0583, -85.1248)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,434
+94,"Location (35.0958, -85.2230)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,435
+92,"Location (35.0132, -85.1859)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,436
+100,"Location (35.0668, -85.2066)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,437
+101,"Location (35.0631, -85.1917)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,438
+361,"Location (35.0821, -85.0836)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,439
+360,"Location (35.1561, -85.1967)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,440
+192,"Location (35.0966, -85.2197)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,441
+190,"Location (35.0162, -85.3838)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,442
+379,"Location (35.0839, -85.0634)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,443
+375,"Location (35.0820, -85.0842)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,444
+39,"Location (35.1830, -85.2430)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,445
+386,"Location (35.0425, -85.1978)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,446
+43,"Location (35.0740, -85.1042)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,447
+44,"Location (35.0956, -85.0595)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,448
+45,"Location (35.0924, -85.3103)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,449
+40,Brainerd Hills Baptist Church,0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,450
+413,"Location (35.0341, -85.2065)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,451
+418,"Location (35.0909, -85.0653)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,452
+8,"Location (35.1481, -85.2070)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,453
+454,"Location (35.0506, -85.1328)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,454
+4,"Location (35.0168, -85.2999)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,455
+3,"Location (35.0053, -85.3929)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,456
+6,"Location (35.1542, -85.2470)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,457
+1,"Location (35.0601, -85.1836)",0,0,0,9999,9999,moderate,800,False,0.0,0.0,0.0,0,0.0,0.0,0.0,poor,Unreliable,458

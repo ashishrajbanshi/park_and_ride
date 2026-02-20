@@ -1,0 +1,62 @@
+{
+  "all_sites": {
+    "gini_coefficient": 0.6934809177302337,
+    "gini_population_weighted": 0.7233724097048595,
+    "coefficient_of_variation": 1.4246789053280475,
+    "min_coverage_ratio": 0.0,
+    "coverage_gap": 100.0,
+    "mean_coverage": 17.32227627592108,
+    "median_coverage": 3.0148738466787126,
+    "min_coverage": 0.0,
+    "max_coverage": 100.0
+  },
+  "selected_sites": {
+    "top_10": {
+      "top_n_sites": 10,
+      "score_method": "equity_adjusted_score",
+      "gini_coefficient_selected": 0.848230790614914,
+      "gini_population_weighted_selected": 0.8664919850123216,
+      "zones_covered": 108,
+      "zones_covered_pct": 29.67032967032967,
+      "population_covered": 127329.0,
+      "population_covered_pct": 26.431226997303508,
+      "mean_coverage_selected": 18.691326386634746,
+      "median_coverage_selected": 0.0,
+      "min_coverage_selected": 0.0,
+      "max_coverage_selected": 212.65322059242152
+    },
+    "top_20": {
+      "top_n_sites": 20,
+      "score_method": "equity_adjusted_score",
+      "gini_coefficient_selected": 0.791709212597117,
+      "gini_population_weighted_selected": 0.8167148641784987,
+      "zones_covered": 167,
+      "zones_covered_pct": 45.879120879120876,
+      "population_covered": 209735.0,
+      "population_covered_pct": 43.53724127480347,
+      "mean_coverage_selected": 25.68268325693282,
+      "median_coverage_selected": 0.0,
+      "min_coverage_selected": 0.0,
+      "max_coverage_selected": 232.2530153758894
+    },
+    "top_30": {
+      "top_n_sites": 30,
+      "score_method": "equity_adjusted_score",
+      "gini_coefficient_selected": 0.7368514170277325,
+      "gini_population_weighted_selected": 0.7672939164597088,
+      "zones_covered": 210,
+      "zones_covered_pct": 57.692307692307686,
+      "population_covered": 258950.0,
+      "population_covered_pct": 53.75339656285484,
+      "mean_coverage_selected": 34.79017919467913,
+      "median_coverage_selected": 5.777216854199436,
+      "min_coverage_selected": 0.0,
+      "max_coverage_selected": 253.18261862822246
+    }
+  },
+  "comparison": {
+    "gini_all": 0.6934809177302337,
+    "gini_top20": 0.791709212597117,
+    "gini_improvement_pct": -14.164527437666925
+  }
+}
